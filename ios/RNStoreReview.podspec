@@ -13,6 +13,9 @@ Pod::Spec.new do |s|
   s.source_files   = "*.{h,m}"
   s.preserve_paths = "**/*.js"
   s.requires_arc = true
+
+  s.dependency "React"
+
 end
 
 
